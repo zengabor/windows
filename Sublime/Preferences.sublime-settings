@@ -1,5 +1,8 @@
 // Data/Packages/User/Preferences.sublime-settings
 {
-	"font_size": 12,
-	"auto_complete": false
+	"auto_complete": false,
+	"color_scheme": "Packages/Opera/Opera.tmTheme",
+	"font_face": "Operator Mono Light",
+	"font_options": ["directwrite"],
+	"font_size": 10.5
 }
