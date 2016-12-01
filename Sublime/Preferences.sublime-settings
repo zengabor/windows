@@ -1,8 +1,15 @@
-// Data/Packages/User/Preferences.sublime-settings
 {
 	"auto_complete": false,
-	"color_scheme": "Packages/Opera/Opera.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Opera (SL).tmTheme",
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
 	"font_face": "Operator Mono Light",
-	"font_options": ["directwrite"],
-	"font_size": 10.5
+	"font_options":
+	[
+		"directwrite"
+	],
+	"font_size": 10
 }
