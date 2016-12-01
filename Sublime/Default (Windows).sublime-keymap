@@ -1,4 +1,3 @@
-// Data/Packages/User/Default (Windows).sublime-keymap
 [
 	{ "keys": ["ctrl+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 	{ "keys": ["ctrl+up"], "command": "move_to", "args": {"to": "bof", "extend": false} },
@@ -6,6 +5,9 @@
 	{ "keys": ["ctrl+g"], "command": "find_next" },
 	{ "keys": ["ctrl+shift+g"], "command": "find_prev" },
 	{ "keys": ["ctrl+w"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },
+	{ "keys": ["ctrl+shift+j"], "command": "join_lines" },
+	{ "keys": ["ctrl+alt+."], "command": "close_tag" },
 	{ "keys": ["ctrl+shift+["], "command": "noop" },
 	{ "keys": ["ctrl+shift+]"], "command": "noop" }
 ]
