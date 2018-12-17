@@ -3,6 +3,7 @@
 ; + = SHIFT
 ; # = WIN
 
+#MaxHotKeysPerInterval 200
 
 LCtrl & Tab::AltTab
 
@@ -18,6 +19,8 @@ Ctrl & Backspace::Send {Delete}
 #Right::Send {End}
 +#Left::Send +{Home}
 +#Right::Send +{End}
+!^Left::Send #{Left}
+!^Right::Send #{Right}
 
 ; Jumping between words with the Alt + arrow buttons:
 !Left::Send {Ctrl Down}{Left}{Ctrl Up}
@@ -46,12 +49,12 @@ Return
 ~LAlt Up:: return
 
 
-RAlt & F7::SendInput {Media_Prev}
-RAlt & F8::SendInput {Media_Play_Pause}
-RAlt & F9::SendInput {Media_Next}
-F10::SendInput {Volume_Mute}
-F11::SendInput {Volume_Down}
-F12::SendInput {Volume_Up}
+; RAlt & F7::SendInput {Media_Prev}
+; RAlt & F8::SendInput {Media_Play_Pause}
+; RAlt & F9::SendInput {Media_Next}
+; F10::SendInput {Volume_Mute}
+; F11::SendInput {Volume_Down}
+; F12::SendInput {Volume_Up}
 
 ; Eject Key
 F20::SendInput {Insert}
